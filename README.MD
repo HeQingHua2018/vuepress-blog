@@ -106,4 +106,4 @@ npm run dev # or yarn dev
 ## 许可证
 [MIT](https://github.com/HeQingHua2018/vuepress-blog/blob/master/LICENSE)
 
-Copyright (c) 2019-present HQH
+Copyright (c) 2022 HeQingHua2018
