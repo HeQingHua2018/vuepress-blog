@@ -95,10 +95,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '面试', link: '/pages/aea6571b7a8bae86/' },
           { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
           { text: '实用技巧', link: '/pages/baaa02/' },
-          { text: '友情链接', link: '/friends/' },
+          // { text: '友情链接', link: '/friends/' },
         ],
       },
-      { text: '关于', link: '/about/' },
+      // { text: '关于', link: '/about/' },
       {
         text: '收藏',
         link: '/pages/beb6c0bd8a66cea6/',
@@ -121,13 +121,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
     // repo: 'HeQingHua2018/vuepress-blog', // 导航栏右侧生成Github链接
-    repo: 'https://gitee.com/HeQingHua2018/vuepress-blog',
+    repo: 'HeQingHua2018/vuepress-blog',
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
     docsBranch: 'master', // 编辑的文件所在分支，默认master。 注意：如果你的分支是main则修改为main
     editLinks: true, // 启用编辑
-    editLinkText: '在Gitee上编辑',
+    editLinkText: '编辑',
 
     //*** 以下是Vdoing主题相关配置，文档：https://doc.xugaoyi.com/pages/a20ce8/ ***//
 
